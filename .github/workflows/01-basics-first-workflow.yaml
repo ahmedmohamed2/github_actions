@@ -9,7 +9,7 @@ job:
     runs-on: ubuntu-latest
     steps:
       - name: Print Hello World
-        run: echo "Hello World"
+        run: echo "Hello World from step 1"
 
       - name: Step 2
         run: echo "Hello World from step 2"
