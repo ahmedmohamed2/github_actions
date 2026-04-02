@@ -1,0 +1,15 @@
+name: 03 Baiscs Events
+
+
+on: [push, pull_request]
+
+jobs:
+  print-hello-world:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Hello World
+        run: echo "Hello World from step 1"
+
+      - name: Step 2
+        run: echo "Hello World from step 2"
+
