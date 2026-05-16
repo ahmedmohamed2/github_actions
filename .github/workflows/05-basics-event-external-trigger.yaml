@@ -1,0 +1,17 @@
+name: 04 Baiscs Events External Trigger
+
+
+on: 
+  respository_dispatch:
+    types: [custom-event]
+
+jobs:
+  print-hello-world:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Hello World
+        run: echo "Hello World from step 1"
+
+      - name: Step 2
+        run: echo "Hello World from step 2"
+
