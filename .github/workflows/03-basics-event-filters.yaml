@@ -8,7 +8,9 @@ on:
       #   - closed
       #   - reopened
 
-
+  push:
+    branches:
+      - main
 
 jobs:
   print-hello-world:
