@@ -2,9 +2,13 @@ name: 03 Baiscs Events
 
 
 on: 
-  pull_request:
-      types:
-        - closed
+  # pull_request:
+  #     types: [closed, reopened]
+      # types:
+      #   - closed
+      #   - reopened
+
+
 
 jobs:
   print-hello-world:
